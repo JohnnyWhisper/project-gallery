@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+</head>
+<body>
+    <div class="container-gallery">
+        <div class="gallery-set">
+            <picture>
+                <source
+                scrset="./images/gallery-desk.png 1x,
+                        ./images/gallery-desk2x.png 2x"
+                media="(min-width:1200px)"
+                >
+                <source
+                scrset="./images/gallery-tab.png 1x,
+                        ./images/gallery-tab2x.png 2x"
+                media="(min-width:768px)"
+                >
+                <source
+                scrset="./images/gallery-mob.png 1x,
+                        ./images/gallery-mob2x.png 2x"
+                media="(min-width:320px)"
+                >
+                <img class="gallery__img" 
+                src="./images/gallery-desk.png" 
+                alt="gallery">
+              </picture>
+        </div>
+
+    </div>
+</body>
+</html>
